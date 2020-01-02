@@ -7,9 +7,6 @@ addons:
   postgresql: "10"
 matrix:
   include:
-  - python: "2.7"
-    env: DJANGO=1.11
-
   - python: "3.6"
     env: DJANGO=1.11
   - python: "3.6"
